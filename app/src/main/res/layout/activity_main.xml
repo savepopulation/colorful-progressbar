@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.raqun.colorfulprogressbar.sample.MainActivity">
+
+    <com.raqun.colorfulprogressbar.ColorfulProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        app:autoPlay="true"
+        app:colors="@array/bar_colors"
+        app:duration="10000"
+        app:finalizeWithColorPrimary="true"
+        app:primaryColor="@color/colorPrimary"
+        app:startAngle="-90"
+        app:strokeWidth="4dp" />
+
+</android.support.constraint.ConstraintLayout>

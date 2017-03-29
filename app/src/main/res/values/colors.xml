@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#444</color>
+
+    <integer-array name="bar_colors">
+        <item>@color/colorAccent</item>
+        <item>@android:color/holo_green_dark</item>
+        <item>@android:color/holo_red_dark</item>
+        <item>@color/colorBlack</item>
+    </integer-array>
+
+</resources>

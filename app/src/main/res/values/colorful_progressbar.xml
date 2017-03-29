@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ColorfulProgressBar">
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="autoPlay" format="boolean" />
+        <attr name="finalizeWithColorPrimary" format="boolean" />
+        <attr name="primaryColor" format="color" />
+        <attr name="colors" format="reference" />
+        <attr name="startAngle" format="float" />
+    </declare-styleable>
+
+</resources>
